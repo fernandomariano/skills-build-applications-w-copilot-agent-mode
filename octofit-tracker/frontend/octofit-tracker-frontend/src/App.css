@@ -1,0 +1,104 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  color: #222;
+}
+
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #ff9800;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Bootstrap table custom colors */
+.table-dark {
+  background-color: #343a40 !important;
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #e3f2fd;
+}
+.table-hover tbody tr:hover {
+  background-color: #ffe0b2;
+}
+
+/* Bootstrap button custom colors */
+.btn-info {
+  background-color: #00bcd4;
+  border-color: #00bcd4;
+  color: #fff;
+}
+.btn-info:hover {
+  background-color: #0097a7;
+  border-color: #0097a7;
+}
+
+/* Headings */
+h2, .card-header h2 {
+  color: #007bff;
+  font-weight: 700;
+}
+
+/* Navbar custom colors */
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.nav-link.active, .nav-link:focus, .nav-link:hover {
+  color: #ff9800 !important;
+}
+
+/* Card custom colors */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.card-header {
+  border-radius: 12px 12px 0 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
